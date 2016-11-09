@@ -1,0 +1,75 @@
+/*----------------------------------------------------- CONTAINER ------*/
+.container {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #939393;
+    padding: 20px;
+}
+
+/*--------------------------------------------------- SECCION HERO ------*/
+
+.chica {
+    border-radius: 100%;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+h1, p {
+    margin: 30px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    margin: 30px 70px;
+}
+
+/*--------------------------------------------- LISTA DE HABILIDADES ------*/
+
+.habilidades li {
+    background: #818181;
+    list-style: none;
+    padding: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.habilidades li:first-child {
+    width: 530px;
+}
+.habilidades li:nth-child(2) {
+    width: 380px;
+}
+.habilidades li:last-child {
+    width: 220px;
+}
+
+/*------------------------------------------------- LISTA DE IMAGENES ------*/
+
+.lista {
+    width: 200px;
+    padding: 15px;
+}
+
+.lista-imagenes {
+    margin: 0 auto;
+}
+.padre {
+    display: block; 
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------- LINK REGRESAR ------*/
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 8px;
+    border: 2px solid;
+    font-family: sans-serif;
+    font-size: 20px;
+    float: left;
+}
+a:hover {
+    color: crimson;
+    background-color: black;
+}
